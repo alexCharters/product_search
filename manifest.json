@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Product Search",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "jquery-3.5.1.min.js",
+                "content.js"
+            ]
+        }
+    ]
+}
